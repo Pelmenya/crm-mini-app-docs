@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'Документация пользователей',
-    tagline: 'Telegram Mini App — CRM',
+    title: 'Телеграм мини апп — CRM',
+    tagline: 'Документация',
     favicon: 'img/favicon.ico',
 
     future: {
@@ -14,12 +14,12 @@ const config: Config = {
     },
 
     // Продакшн-URL твоего сайта документов
-    url: 'https://docs.example.com',
+    url: 'https://docs.docs.crm-tg-mini-app.tw1.ru',
     baseUrl: '/',
 
     // Репозиторий c конфигом/контентом документации
-    organizationName: 'your-org', // ← замени
-    projectName: 'your-repo',     // ← замени
+    organizationName: 'aquaphor-pro.store', // ← замени
+    projectName: 'aquaphor-pro.store',     // ← замени
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -36,7 +36,7 @@ const config: Config = {
                 docs: {
                     routeBasePath: '/',            // Документация доступна на корне сайта
                     sidebarPath: './sidebars.ts',
-                    editUrl: 'https://github.com/your-org/your-repo/edit/main/', // ← замени или убери
+                    editUrl: 'https://github.com/pelmenya/crm-mini-app-docs/edit/main/', // ← замени или убери
                 },
                 blog: false, // Блог отключен
                 theme: {
@@ -62,7 +62,7 @@ const config: Config = {
                     label: 'Руководство',
                 },
                 {
-                    href: 'https://github.com/your-org/your-repo', // ← замени
+                    href: 'https://github.com/pelmenya/crm-mini-app-docs', // ← замени
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -78,16 +78,9 @@ const config: Config = {
                     ],
                 },
                 {
-                    title: 'Сообщество',
-                    items: [
-                        { label: 'Вопросы на Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },
-                        { label: 'Discord Docusaurus', href: 'https://discordapp.com/invite/docusaurus' },
-                    ],
-                },
-                {
                     title: 'Ещё',
                     items: [
-                        { label: 'Репозиторий', href: 'https://github.com/your-org/your-repo' }, // ← замени
+                        { label: 'Репозиторий', href: 'https://github.com/pelmenya/crm-mini-app-docs' }, // ← замени
                     ],
                 },
             ],
