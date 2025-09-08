@@ -76,7 +76,8 @@ const config: Config = {
                     items: [
                         { label: 'О приложении', to: '/about' },
                         { label: 'Быстрый старт', to: '/start' },
-                        { label: 'Клиент', to: '/client' },
+                        { label: 'Клиент', to: '/category/клиент' },
+                        
                     ],
                 },
                 {
