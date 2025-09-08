@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
     title: 'Телеграм мини апп — CRM',
     tagline: 'Документация',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/aquaphor.png',
 
     future: {
         v4: true,
