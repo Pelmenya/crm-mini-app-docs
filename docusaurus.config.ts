@@ -74,7 +74,9 @@ const config: Config = {
                 {
                     title: 'Разделы',
                     items: [
-                        { label: 'Введение', to: '/intro' },
+                        { label: 'О приложении', to: '/about' },
+                        { label: 'Быстрый старт', to: '/start' },
+                        { label: 'Клиент', to: '/client' },
                     ],
                 },
                 {
