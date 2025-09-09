@@ -14,7 +14,7 @@ const config: Config = {
     },
 
     // Продакшн-URL твоего сайта документов
-    url: 'https://docs.docs.crm-tg-mini-app.tw1.ru',
+    url: 'https://docs.crm-tg-mini-app.tw1.ru',
     baseUrl: '/',
 
     // Репозиторий c конфигом/контентом документации
@@ -76,7 +76,6 @@ const config: Config = {
                     items: [
                         { label: 'О приложении', to: '/about' },
                         { label: 'Быстрый старт', to: '/start' },
-                        { label: 'Клиент', to: '/category/клиент' },
                         
                     ],
                 },
