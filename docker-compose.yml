@@ -1,0 +1,7 @@
+services:
+  crm-mini-app-docs:
+    build: .
+    container_name: crm-mini-app-docs
+    restart: unless-stopped
+    ports:
+      - "3090:3090"
