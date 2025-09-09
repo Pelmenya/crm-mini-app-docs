@@ -47,7 +47,7 @@ const config: Config = {
     ],
 
     themeConfig: {
-        image: 'img/logo.svg',
+        image: 'img/aqua_omg_tag.png',
         navbar: {
             logo: {
                 alt: 'Логотип',
