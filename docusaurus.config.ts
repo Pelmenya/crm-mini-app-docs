@@ -49,11 +49,11 @@ const config: Config = {
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'Документация',
             logo: {
                 alt: 'Логотип',
                 src: 'img/logo.svg',
             },
+            title: 'Главная',
             items: [
                 {
                     type: 'docSidebar',
