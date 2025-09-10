@@ -86,7 +86,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `© ${new Date().getFullYear()} Telegram Mini App Docs.`,
+            copyright: `© ${new Date().getFullYear()} CRM aquaphor-pro.store Docs.`,
         },
         prism: {
             theme: prismThemes.github,
