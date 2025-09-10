@@ -1,6 +1,6 @@
 {
   "label": "Заказы",
-  "position": 7,
+  "position": 8,
   "link": {
     "type": "generated-index",
     "description": "Основной функционал работы с заказами"
