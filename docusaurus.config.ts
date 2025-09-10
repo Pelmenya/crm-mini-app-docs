@@ -28,7 +28,15 @@ const config: Config = {
         defaultLocale: 'ru',
         locales: ['ru'],
     },
-
+    plugins: [
+        [
+            require.resolve('docusaurus-plugin-search-local'),
+            {
+                indexDocs: true,
+                indexPages: true,
+            },
+        ],
+    ],
     presets: [
         [
             'classic',
@@ -76,7 +84,7 @@ const config: Config = {
                     items: [
                         { label: 'О приложении', to: '/about' },
                         { label: 'Быстрый старт', to: '/start' },
-                        
+
                     ],
                 },
                 {
