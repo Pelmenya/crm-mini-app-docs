@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+[Сайт Документации телеграм мини апп приложения Aquapor-pro.store](https://docs.crm-tg-mini-app.tw1.ru/).
 
 ## Installation
 
