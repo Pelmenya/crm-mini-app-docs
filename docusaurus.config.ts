@@ -28,15 +28,6 @@ const config: Config = {
         defaultLocale: 'ru',
         locales: ['ru'],
     },
-    plugins: [
-        [
-            require.resolve('docusaurus-plugin-search-local'),
-            {
-                indexDocs: true,
-                indexPages: true,
-            },
-        ],
-    ],
     presets: [
         [
             'classic',
