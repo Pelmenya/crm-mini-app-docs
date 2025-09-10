@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'CRM aquaphor-pro.store',
+    title: 'CRM Aquaphor-pro.store',
     tagline: 'Документация',
     favicon: 'img/aquaphor.png',
 
