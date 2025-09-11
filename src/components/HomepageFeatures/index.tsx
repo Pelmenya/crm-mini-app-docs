@@ -2,11 +2,13 @@ import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
     title: string;
     Svg: React.ComponentType<React.ComponentProps<'svg'>>;
     description: ReactNode;
+    link: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -18,6 +20,7 @@ const FeatureList: FeatureItem[] = [
                 
             </>
         ),
+        link: '/account/client'
     },
     {
         title: 'Куратор',
@@ -27,6 +30,7 @@ const FeatureList: FeatureItem[] = [
                 
             </>
         ),
+        link: '/account/service'
     },
     {
         title: 'Сервисный инженер',
@@ -36,12 +40,15 @@ const FeatureList: FeatureItem[] = [
                 
             </>
         ),
+        link: '/account/curator'
     },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, description, link }: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
+            <Link to={link}>
+
             <div className="text--center">
                 <Svg className={styles.featureSvg} role="img" />
             </div>
@@ -49,6 +56,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
             </div>
+            </Link>
         </div>
     );
 }
