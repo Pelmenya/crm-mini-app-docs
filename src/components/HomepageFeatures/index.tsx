@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
                 
             </>
         ),
-        link: '/account/service'
+        link: '/account/curator'
     },
     {
         title: 'Сервисный инженер',
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
                 
             </>
         ),
-        link: '/account/curator'
+        link: '/account/service'
     },
 ];
 
