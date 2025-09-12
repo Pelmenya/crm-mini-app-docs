@@ -10,12 +10,40 @@ import Link from '@docusaurus/Link';
 Доступно для ролей: **Сервис**, **Куратор**
 :::
 
+#### Заполнение данных об автомобиле
+
 Страница профиля при первом входе:
 
-<Link to="/account/service#profile-complete">
     <div align="center">
-        <img src="/img/account/service/profile/service_profile_init.png" alt="Проект выбран" width="300" />
+        <img src="/img/account/service/profile/service_profile_init.png" alt="Страница профиля сервисного инженера при первом входе" width="300" />
+        <figcaption><b>Страница профиля сервисного инженера при первом входе</b></figcaption>
+    </div>
+
+<br /> 
+
+На странице необходимо ввести валидные данные о Вашем автомобиле и его гос. номере
+
+Марка автомобиля не более 50 символов. 
+Номер автомобиля в формате "А123ВС 77" в случае ошибки - будет подсказка что исправить при нажатии "Сохранить"
+
+    <div align="center">
+        <img src="/img/account/service/profile/service_profile_error.png" alt="Проект выбран" width="300" />
+        <figcaption><b>Нажмите кнопку «Сохранить»</b></figcaption>
+    </div>
+
+В случае правильного заполнения марки автомобиля и номера и нажатия кнопки сохранить - преходим в Личный кабинет, 
+где на вкладке мой профиль будет отображены марка и номер автомобиля
+
+<Link to="/account/service#profile-car-complete">
+    <div align="center">
+        <img src="/img/account/service/profile/service_profile_car_number_complete.png" alt="Проект выбран" width="300" />
         <figcaption><b>Нажмите кнопку «Сохранить»</b></figcaption>
     </div>
 </Link>
 
+<br />
+
+
+#### Заполнение данных календаря {#calendar}
+
+Так же, если график Вашей рабочей недеи стабилен - можно задать матрицу рабочих дней и указать зону обслуживания в этот день и тогда выбрав 

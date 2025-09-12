@@ -85,7 +85,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `© ${new Date().getFullYear()} CRM aquaphor-pro.store Docs.`,
+            copyright: `© ${new Date().getFullYear()} CRM Aquaphor-pro.store Docs.`,
         },
         prism: {
             theme: prismThemes.github,
