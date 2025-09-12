@@ -3,7 +3,7 @@ FROM node:22 AS builder
 
 WORKDIR /app
 COPY . .
-RUN npm i --force && npm run build
+RUN npm i && npm run build
 
 # Production image
 FROM node:22
