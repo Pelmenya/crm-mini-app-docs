@@ -71,10 +71,27 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Разделы',
+                    title: 'Добро пожаловать',
                     items: [
                         { label: 'О приложении', to: '/about' },
                         { label: 'Быстрый старт', to: '/start' },
+                    ],
+                },
+                {
+                    title: 'Пользователь',
+                    items: [
+                        { label: 'Регистрация', to: '/register' },
+                        { label: 'Личный кабинет', to: '/category/личный-кабинет' },
+                        { label: 'Объект недвижимости', to: '/category/объект-недвижимости' },
+                        { label: 'Анализ воды', to: '/category/анализ-воды' },
+                    ],
+                },
+                                {
+                    title: 'Товары и услуги',
+                    items: [
+                        { label: 'Каталог', to: '/category/каталог-товаров-и-услуг' },
+                        { label: 'Корзина', to: '/category/корзина' },
+                        { label: 'Заказы', to: '/category/заказы' },
 
                     ],
                 },
@@ -85,7 +102,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `© ${new Date().getFullYear() !== 2025 ? "2025 - " +  new Date().getFullYear() : new Date().getFullYear() } CRM Aquaphor-pro.store Docs.`,
+            copyright: `© ${new Date().getFullYear() !== 2025 ? "2025 - " + new Date().getFullYear() : new Date().getFullYear()} CRM Aquaphor-pro.store Docs.`,
         },
         prism: {
             theme: prismThemes.github,
